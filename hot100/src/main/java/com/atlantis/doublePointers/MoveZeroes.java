@@ -1,4 +1,4 @@
-package com.atlantis;
+package com.atlantis.doublePointers;
 
 import java.util.Arrays;
 

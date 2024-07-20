@@ -1,4 +1,4 @@
-package com.atlantis;
+package com.atlantis.doublePointers;
 
 // 11.盛最多水的容器
 // https://leetcode.cn/problems/container-with-most-water/description/?envType=study-plan-v2&envId=top-100-liked

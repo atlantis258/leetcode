@@ -1,4 +1,4 @@
-package com.atlantis;
+package com.atlantis.hash;
 
 import java.util.HashSet;
 import java.util.Set;
