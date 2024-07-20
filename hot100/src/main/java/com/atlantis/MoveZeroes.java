@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 // 283. 移动零
 // https://leetcode.cn/problems/move-zeroes/description/?envType=study-plan-v2&envId=top-100-liked
-public class Test4 {
+public class MoveZeroes {
     public void moveZeroes(int[] nums) {
         if (nums == null) {
             return;
@@ -25,9 +25,9 @@ public class Test4 {
     }
 
     public static void main(String[] args) {
-        Test4 test4 = new Test4();
+        MoveZeroes moveZeroes = new MoveZeroes();
         int[] nums = {0,1,0,3,12};
-        test4.moveZeroes(nums);
+        moveZeroes.moveZeroes(nums);
     }
 
 //    public void moveZeroesFailed(int[] nums) {

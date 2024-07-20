@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class Test6 {
+// 15.三数之和
+// https://leetcode.cn/problems/3sum/description/?envType=study-plan-v2&envId=top-100-liked
+public class ThreeSum {
     public List<List<Integer>> threeSum(int[] nums) {
         int n = nums.length;
         Arrays.sort(nums);
@@ -46,10 +48,10 @@ public class Test6 {
     }
 
     public static void main(String[] args) {
-        Test6 test6 = new Test6();
+        ThreeSum threeSum = new ThreeSum();
 
         int[] nums = {-1,0,1,2,-1,-4};
 
-        System.out.println(test6.threeSum(nums));
+        System.out.println(threeSum.threeSum(nums));
     }
 }

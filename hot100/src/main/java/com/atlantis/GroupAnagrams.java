@@ -4,7 +4,7 @@ import java.util.*;
 
 // 49. 字母异位词分组
 // https://leetcode.cn/problems/group-anagrams/description/?envType=study-plan-v2&envId=top-100-liked
-public class Test2 {
+public class GroupAnagrams {
     public List<List<String>> groupAnagrams(String[] strs) {
 
         Map<String, List<String>> map = new HashMap<>();
@@ -21,9 +21,9 @@ public class Test2 {
     }
 
     public static void main(String[] args) {
-        Test2 test2 = new Test2();
+        GroupAnagrams groupAnagrams = new GroupAnagrams();
         String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
-        test2.groupAnagrams(strs);
-        System.out.println(test2.groupAnagrams(strs));
+        groupAnagrams.groupAnagrams(strs);
+        System.out.println(groupAnagrams.groupAnagrams(strs));
     }
 }

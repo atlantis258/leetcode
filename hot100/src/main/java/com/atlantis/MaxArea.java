@@ -2,7 +2,7 @@ package com.atlantis;
 
 // 11.盛最多水的容器
 // https://leetcode.cn/problems/container-with-most-water/description/?envType=study-plan-v2&envId=top-100-liked
-public class Test5 {
+public class MaxArea {
 
     public int maxArea(int[] height) {
         int i = 0, j = height.length - 1, res = 0;
@@ -16,9 +16,9 @@ public class Test5 {
     }
 
     public static void main(String[] args) {
-        Test5 test5 = new Test5();
+        MaxArea maxArea = new MaxArea();
         int[] height = {1,8,6,2,5,4,8,3,7};
-        System.out.println(test5.maxArea(height));
+        System.out.println(maxArea.maxArea(height));
     }
 
 //    public int maxAreaOverTime(int[] height) {
