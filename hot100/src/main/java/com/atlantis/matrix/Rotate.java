@@ -1,4 +1,4 @@
-package com.atlantis.ordinaryArray;
+package com.atlantis.matrix;
 
 import java.util.Arrays;
 
